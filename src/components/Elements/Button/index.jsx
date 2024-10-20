@@ -1,10 +1,14 @@
+const Button = (props) => {
+  const { children, variant, type } = props;
 
-const Button = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <button
+      className={`h-12 rounded-md text-sm ${variant}`}
+      type={type}
+    >
+      {children}
+    </button>
+  );
+};
 
-export default Button
+export default Button;

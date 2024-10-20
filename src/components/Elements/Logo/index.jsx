@@ -1,12 +1,16 @@
+import React from 'react'
 
-const Logo = () => {
+const index = () => {
   return (
-    <div className="w-full max-w-sm">
-        <h1 className="text-center text-3xl font-bold text-teal-500">
-            FINEbank<span className="text-teal-500">.IO</span>
-        </h1>
-    </div>
+    <>
+    {/* logo start */}
+<div className="flex justify-center font-poppins tracking-wide text-primary text-4xl">
+<span className="font-bold ">FINE</span>bank
+<span className="font-bold">.IO</span>
+</div>
+{/* logo end */}
+    </>
   )
 }
 
-export default Logo;
+export default index

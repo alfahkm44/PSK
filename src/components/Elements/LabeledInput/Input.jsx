@@ -1,25 +1,15 @@
-import React, { useState } from 'react';
-const Input = () => {
-    const [showPassword, setShowPassword] = useState(false);
-      
-    const togglePasswordVisibility = () => {
-      setShowPassword(!showPassword);
-    }
+const Input = (props) => {
+  const { type, placeholder, name } = props;
+
   return (
     <input
-        type="email"
-        className="py-3 ps-4 text-sm border rounded-md w-full bg-gray-100 border-gray-300 text-gray-900 focus:border-teal-500 focus:outline-none focus:ring-0" 
-        placeholder="hello@example.com"
-        name="email"
-        id="email"
+      type={type}
+      className="py-3 ps-4 text-sm border rounded-md w-full bg-special-mainBg border-gray-03 text-gray-01 focus:border-black focus:outline-none focus:ring-0"
+      placeholder={placeholder}
+      name={name}
+      id={name}
     />
-    <input
-        type={showPassword ? 'text' : 'password'} 
-        id="password"
-        className="p-2 w-full border rounded-md focus:ring-teal-500 focus:border-teal-500"
-        placeholder="************"
-    />
-  )
-}
+  );
+};
 
-export default Input
+export default Input;
