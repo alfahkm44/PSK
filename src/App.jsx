@@ -1,9 +1,9 @@
-import BalancePage from "./Pages/balance";
-import DashboardPage from "./Pages/dashboard";
-import ErrorRoute from "./Pages/errorRoute";
-import ForgotPassword from "./Pages/ForgotPassword";
-import SignInPage from "./Pages/SignIn";
-import SignUpPage from "./Pages/SignUp";
+import BalancePage from "./pages/balance";
+import DashboardPage from "./pages/dashboard";
+import ErrorRoute from "./pages/errorRoute";
+import ForgotPassword from "./pages/ForgotPassword";
+import SignInPage from "./pages/SignIn";
+import SignUpPage from "./pages/SignUp";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
