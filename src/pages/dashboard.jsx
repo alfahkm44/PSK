@@ -1,5 +1,5 @@
 import Card from "../Elements/Card/index";
-import MainLayout from "../Layout/MainLayout";
+import MainLayout from "../components/Layout/MainLayout";
 
 
 const DashboardPage = () => {
