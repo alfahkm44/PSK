@@ -3,7 +3,7 @@ import DashboardPage from "./pages/dashboard";
 import ErrorRoute from "./pages/errorRoute";
 import ForgotPassword from "./pages/forgotPassword";
 import SignInPage from "./pages/signIn";
-import SignUpPage from "./pages/SignUp";
+import SignUpPage from "./pages/signUp";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
