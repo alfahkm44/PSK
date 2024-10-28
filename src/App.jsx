@@ -2,8 +2,8 @@ import BalancePage from "./pages/balance";
 import DashboardPage from "./pages/dashboard";
 import ErrorRoute from "./pages/errorRoute";
 import ForgotPassword from "./pages/forgotPassword";
-import SignInPage from "./pages/signIn";
-import SignUpPage from "./pages/signUp";
+import SignInPage from "./pages/SignIn";
+import SignUpPage from "./pages/SignUp";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
