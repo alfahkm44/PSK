@@ -1,7 +1,5 @@
-import React from 'react'
-import Button from "../Elements/Button";
-import CheckBox from "../Elements/CheckBox";
-import LabeledInput from "../Elements/LabeledInput";
+import Button from "../Elements/Button/index";
+import LabeledInput from "../Elements/LabeledInput/Index";
 import { Link } from 'react-router-dom'
 import Logo from '../Elements/Logo/index'
 
@@ -12,7 +10,7 @@ const FormForgotPassword = () => {
             <Logo />
             <h2 className="text-xl font-bold text-center mt-6">Forgot Password?</h2>
             <p className="text-center text-gray-500 mt-2">
-            Don’t worry, we’ve got your back!<br></br> Just enter your email address and we’ll send you a link to reset your password.
+            Enter your email address to get the <br /> password reset link.
             </p>
 
             <form action="" className="mt-6">
