@@ -1,6 +1,6 @@
 import Button from "../Elements/Button/index";
 import CheckBox from "../Elements/CheckBox/index";
-import LabeledInput from "../Elements/LabeledInput/Index";
+import LabeledInput from "../Elements/LabeledInput/index";
 import { Link } from 'react-router-dom'
 
 const FormSignIn = () => {
