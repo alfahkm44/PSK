@@ -1,6 +1,7 @@
 import BalancePage from "./pages/balance";
 import DashboardPage from "./pages/dashboard";
 import ErrorRoute from "./pages/errorRoute";
+import Expenccespage from "./pages/expencces";
 import ForgotPassword from "./pages/forgotPassword";
 import SignInPage from "./pages/signIn";
 import SignUpPage from "./pages/signUp";
@@ -32,6 +33,10 @@ const App = () => {
     {
       path: "/balance",
       element: <BalancePage/>
+    },
+    {
+      path: "/expencces",
+      element: <Expenccespage/>
     }
   ]);
 
